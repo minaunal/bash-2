@@ -5,7 +5,7 @@ if [ -f "$file" ]; then
     rm "$file"
 fi
 
-for i in $(seq 1 99); do
+for i in $(seq 1 100); do
     if  [ "$i" -eq $bad_line ]; then
          echo "bad" >> "$file"
     else
